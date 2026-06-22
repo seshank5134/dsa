@@ -16,4 +16,23 @@ class Main{
         }
         return max/k;
     }
+
+
+    // public static double findMaxAverage(int[] nums, int k) {
+
+    //     double maxSum = Integer.MIN_VALUE;
+
+    //     for (int i = 0; i <= nums.length - k; i++) {
+
+    //         double currentSum = 0;
+
+    //         for (int j = i; j < i + k; j++) {
+    //             currentSum += nums[j];
+    //         }
+
+    //         maxSum = Math.max(maxSum, currentSum);
+    //     }
+
+    //     return maxSum / k;
+    // }
 }
