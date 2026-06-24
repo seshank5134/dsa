@@ -1,21 +1,25 @@
+import java.util.*;
 class Main{
     public static void main(String [] args){
-        String s = "((()))";
+        String s = "([)]";
         System.out.println(VP(s));
     }
 
     public static boolean VP(String s) {
-        int count = 0;
+        Stack<Character> stack = new Stack<>();
         for (char c : s.toCharArray()) {
-            if (c == '(') {
-                count++;
-            } else if (c == ')') {
-                count--;
-                if (count < 0) {
+            if (c == '(' || c == '{' || c == '[') {
+                stack.push(c);
+            } else {
+                if (stack.isEmpty()) {
+                    return false;
+                }
+                char top = stack.pop();
+                if ((c == ')' && top != '(') || (c == '}' && top != '{') || (c == ']' && top != '[')) {
                     return false;
                 }
             }
         }
-        return count == 0;
+        return stack.isEmpty();
     }
 }
