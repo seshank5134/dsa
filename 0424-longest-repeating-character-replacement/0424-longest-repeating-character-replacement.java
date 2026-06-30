@@ -4,7 +4,7 @@ class Solution {
     int left = 0;
     int maxLen = 0;
     int maxFreq = 0;
-    int[] freq = new int[26];
+    int[] freq = new int[26]; // here we use in[26] instead of hashmap
 
     for (int right = 0; right < s.length(); right++) {
 
@@ -21,7 +21,7 @@ class Solution {
 
         while ((right - left + 1) - maxFreq > k) {
 
-            freq[s.charAt(left) - 'A']--;
+            freq[s.charAt(left) - 'A']--; // here we use asci calculation so that we can check frequency 
             left++;
         }
 
