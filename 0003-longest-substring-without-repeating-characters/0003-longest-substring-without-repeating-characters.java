@@ -10,10 +10,12 @@ class Solution {
             } else {
                 while (set.contains(s.charAt(i))){
                     set.remove(s.charAt(l)); // if checks happen will remove the 
-                    l++;
+                    l++;//left ---> shrinks
+
                 }
                 set.add(s.charAt(i));
-                r++;
+
+                r++;//  right ---> expands
             }
           }
           return max;
