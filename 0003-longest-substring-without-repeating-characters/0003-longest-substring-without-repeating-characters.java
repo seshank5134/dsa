@@ -8,7 +8,7 @@ class Solution {
                 r++;
                 max = Math.max(max, r-l);
             } else {
-                while (set.contains(s.charAt(i))){
+                while (set.contains(s.charAt(i))){//Keep shrinking while the set already contains the current character
                     set.remove(s.charAt(l)); // if checks happen will remove the 
                     l++;//left ---> shrinks
 
