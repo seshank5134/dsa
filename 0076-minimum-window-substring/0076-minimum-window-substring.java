@@ -8,17 +8,17 @@ class Solution {
   int start = 0 ;
 
 int minLength = Integer.MAX_VALUE;
-    HashMap<Character, Integer> needCount = new HashMap<>();
-    HashMap<Character, Integer> windowCount = new HashMap<>();
+    HashMap<Character, Integer> needCount = new HashMap<>();// need map
+    HashMap<Character, Integer> windowCount = new HashMap<>();// window map
      for (char c : t.toCharArray()) {
-        needCount.put(c, needCount.getOrDefault(c, 0) + 1);
+        needCount.put(c, needCount.getOrDefault(c, 0) + 1); // into need map 
     }
     for (int right = 0; right < s.length(); right++) {      
             
         char rightChar = s.charAt(right);
         windowCount.put(rightChar, windowCount.getOrDefault(rightChar, 0) + 1);
         if (needCount.containsKey(rightChar) && windowCount.get(rightChar).intValue() == needCount.get(rightChar).intValue()) {
-            matched++; // when the window have the need size then we have to add the amtched increase 
+            matched++; // when the window have the need size then we have to add the matched increase 
         }
         while (matched == needCount.size()) {
             if (right - left + 1 < minLength) {
@@ -37,4 +37,4 @@ int minLength = Integer.MAX_VALUE;
     
   return minLength == Integer.MAX_VALUE ? "" : s.substring(start, start + minLength);// teritoary expression here 
     }
-}
+}// all sliding windows got same patteren just it will hacve change in condition 
