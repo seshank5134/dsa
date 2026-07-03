@@ -1,4 +1,4 @@
-class Solution {
+class Solution {// have to remove 00 and merge both and sort 
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int x = m - 1; // Pointer for the last element in nums1's initial part
             int y = n - 1; // Pointer for the last element in nums2
