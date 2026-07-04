@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/seshank5134/dsa/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/seshank5134/dsa/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/seshank5134/dsa/tree/master/0344-reverse-string) |
+| [0383-ransom-note](https://github.com/seshank5134/dsa/tree/master/0383-ransom-note) |
 | [0424-longest-repeating-character-replacement](https://github.com/seshank5134/dsa/tree/master/0424-longest-repeating-character-replacement) |
 ## Array
 |  |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/seshank5134/dsa/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/seshank5134/dsa/tree/master/0076-minimum-window-substring) |
 | [0349-intersection-of-two-arrays](https://github.com/seshank5134/dsa/tree/master/0349-intersection-of-two-arrays) |
+| [0383-ransom-note](https://github.com/seshank5134/dsa/tree/master/0383-ransom-note) |
 | [0424-longest-repeating-character-replacement](https://github.com/seshank5134/dsa/tree/master/0424-longest-repeating-character-replacement) |
 | [0560-subarray-sum-equals-k](https://github.com/seshank5134/dsa/tree/master/0560-subarray-sum-equals-k) |
 | [0904-fruit-into-baskets](https://github.com/seshank5134/dsa/tree/master/0904-fruit-into-baskets) |
@@ -63,4 +65,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0088-merge-sorted-array](https://github.com/seshank5134/dsa/tree/master/0088-merge-sorted-array) |
 | [0349-intersection-of-two-arrays](https://github.com/seshank5134/dsa/tree/master/0349-intersection-of-two-arrays) |
+## Counting
+|  |
+| ------- |
+| [0383-ransom-note](https://github.com/seshank5134/dsa/tree/master/0383-ransom-note) |
 <!---LeetCode Topics End-->
