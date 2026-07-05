@@ -27,4 +27,4 @@ class Solution {
 
     return maxLen;
     }
-}
+}// sliding window pattern 
