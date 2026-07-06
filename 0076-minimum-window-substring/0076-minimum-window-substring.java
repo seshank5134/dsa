@@ -1,4 +1,4 @@
-class Solution {
+class Solution {// best sliding problem with greedy one 
     public String minWindow(String s, String t) { // done by vs code 
     // here its like a greedy one  when the need count and window count matches we will shrink form left and check the need == count if then re shrink 
     // if not equal then wwe have to rpxpand and gaina and will check this that wheter is window and need count be equal and both have sam e elements 
