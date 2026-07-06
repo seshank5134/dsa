@@ -1,4 +1,4 @@
-class Solution {
+class Solution {// best calculation with asci calculation 
     /*  public boolean isAnagram(String s, String t) {
        // first brute idea by two for loops 
               
