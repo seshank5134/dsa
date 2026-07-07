@@ -21,4 +21,5 @@ class Solution {// clasic sliding window one  which we ave to check premutations
         }
         return false;// finally not happen then false 
     }
-}
+}// complexity time : o(n) 
+// space is o(1)
