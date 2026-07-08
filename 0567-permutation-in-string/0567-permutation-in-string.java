@@ -1,4 +1,6 @@
 class Solution {// clasic sliding window one  which we ave to check premutations of s1 to be in s2 or not 
+// sliding window 
+
     public boolean checkInclusion(String s1, String s2) {
         if (s1.length() > s2.length()) {
             return false;
@@ -21,5 +23,5 @@ class Solution {// clasic sliding window one  which we ave to check premutations
         }
         return false;// finally not happen then false 
     }
-}// complexity time : o(n) 
-// space is o(1)
+}// complexity time : o(n)  as we are using the only one loop with complement logic so it would be 
+// space is o(1) and we are just creating array with meemory taking single in the memory loaction so it would be o(1) 
