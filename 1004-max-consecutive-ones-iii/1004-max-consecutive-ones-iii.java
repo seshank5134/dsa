@@ -1,4 +1,4 @@
-class Solution {
+class Solution {// clasic sliding window problem where able to move upto k times of zero to 1 to make maximum consecutive of ones 
     public int longestOnes(int[] nums, int k) {
         int left = 0;
     int zeroCount = 0;
