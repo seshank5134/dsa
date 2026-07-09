@@ -12,7 +12,7 @@ class Solution {
     return true;
     }*/
 
-s= s.toLowerCase(); // optimial with space O(N) 
+s= s.toLowerCase(); // optimial with time O(N) and space with o(1) 
     int l = 0;
      int r = s.length()-1;
      while (l<r){ if (!Character.isLetterOrDigit(s.charAt(l))) {
