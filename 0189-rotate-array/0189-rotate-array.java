@@ -1,5 +1,6 @@
 class Solution {
     public void rotate(int[] nums, int k) {
+        // nasic brute one with time complexity of o(n^2)
     //     int n = nums.length;
     //     k=k%n;
     //      for (int i = 0; i < k; i++) {
@@ -11,6 +12,7 @@ class Solution {
 
 
     // }
+    // optimal with complexity of time is o(n) 
      int n = nums.length;
     k = k % n; // Handle cases where k is greater than n
         reverse(nums, 0, n - 1); // Reverse the entire array
@@ -18,7 +20,7 @@ class Solution {
         reverse(nums, k, n - 1); // Reverse the remaining elements
     }
     public static void reverse(int[] nums, int start, int end) {
-        while (start < end) {
+        while (start < end) { // here we use only one while loop from n
             int temp = nums[start];
             nums[start] = nums[end];
             nums[end] = temp;
