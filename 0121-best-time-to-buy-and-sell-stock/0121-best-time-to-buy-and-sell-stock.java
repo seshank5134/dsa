@@ -1,4 +1,4 @@
-class Solution {
+class Solution {//Time Complexity: \(O(N)\) because you loop through the array exactly once.Space Complexity: \(O(1)\) because you only use two primitive integer tracking variables.
     public int maxProfit(int[] prices) {
         int minPrice = Integer.MAX_VALUE;
         int maxProfit = 0;
