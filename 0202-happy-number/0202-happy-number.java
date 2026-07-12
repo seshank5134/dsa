@@ -1,5 +1,6 @@
 class Solution {// complexity of space and time is o(long n)
 // we need to check whthere summ of digitd of the given n is finlie to be 1 then happy or else not 
+// FINAL SUM TO BE 1 
     public boolean isHappy(int n) {
         Set<Integer> seen = new HashSet<>();// to get unique values 
         while (n != 1 && !seen.contains(n)) {// will chek here is n == 1 and if not we have to add the n to created set so that if repeated then not possible to be happy
