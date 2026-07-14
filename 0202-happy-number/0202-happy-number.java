@@ -1,5 +1,6 @@
 class Solution {// complexity of space and time is o(long n)
 // we need to check whthere summ of digitd of the given n is finlie to be 1 then happy or else not 
+// this is classic step wise iteration and  checking 
 // FINAL SUM TO BE 1 
     public boolean isHappy(int n) {
         Set<Integer> seen = new HashSet<>();// to get unique values 
