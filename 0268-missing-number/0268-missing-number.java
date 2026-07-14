@@ -9,4 +9,4 @@ class Solution {//  have to get non existing within the size of array
        return expectedSum - sum;// here we remove by complement logic 
             
         }
-    }
+    }// this be done in xor will do it 
