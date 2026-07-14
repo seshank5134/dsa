@@ -12,6 +12,8 @@ else if (nums[mid] < target)
 else
     right = mid - 1;// if high than req then discard right side part also do one less of mid as we already checked the mid so mid-1 
         }
-        return left; 
+        return left; // Target was not found.
+// At this point, left is the first position where target
+// can be inserted while keeping the array sorted.
     }
 }
