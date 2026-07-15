@@ -6,7 +6,7 @@ class Solution {// need to find the duplicate ( repeated term in the given array
                 return num; // Return the first duplicate found
             }
             seen.add(num);// will ADD THEN NUMBER WHICH IS NOT SEEN AND SET HAVE FEATURES OF STORING ONLY UNIQUE VALUES 
-        }
+        } // urike
         return -1;
     }
 }
