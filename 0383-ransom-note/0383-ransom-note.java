@@ -1,4 +1,4 @@
-class Solution {
+class Solution {// ransom note
     public boolean canConstruct(String ransomNote, String magazine) {
          int[] arr = new int[26];
         for (char c : magazine.toCharArray()) {// with asci calcluation save every thing from magzine 
