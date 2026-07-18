@@ -1,4 +1,4 @@
-class Solution {
+class Solution {// stack answrer
     public boolean isValid(String s) {
          Stack<Character> stack = new Stack<>();// stack technique 
         for (char c : s.toCharArray()) {
