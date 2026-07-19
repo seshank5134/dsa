@@ -1,4 +1,4 @@
-class Solution {
+class Solution {// classic array with loops  
     public void moveZeroes(int[] nums) { // sort zeo to end   by first half upto l 
          int l = 0; int r = 0;
         for (int i = 0; i<nums.length;i++){
