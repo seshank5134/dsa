@@ -1,8 +1,8 @@
-class Solution {
+class Solution {// calssic binary wotih first and last 
     public int[] searchRange(int[] nums, int target) {
         int left= 0; int right = nums.length - 1;
-            int first = binarySearch(nums, target, true);
-            int last = binarySearch(nums, target, false);
+            int first = binarySearch(nums, target, true);// here we are calling to get first with find first as true 
+            int last = binarySearch(nums, target, false);// here we have to call the method to check the last onbe with false as findFirst 
             return  new int[]{first,last};
         }
         public static int binarySearch(int nums[], int target, boolean findFirst){
