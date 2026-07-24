@@ -12,9 +12,9 @@ class Solution {// typical binary problem with a rotation
     if (nums[left] <= nums[mid]) {
 
         if (nums[left] <= target && target < nums[mid]) {
-            right = mid - 1;
+            right = mid - 1;//the target is inside the sorted left half, we can safely discard the right half.
         } else {
-            left = mid + 1;
+            left = mid + 1;//the target is inside the sorted right half, we can safely discard the left half.
         }
 
     }
