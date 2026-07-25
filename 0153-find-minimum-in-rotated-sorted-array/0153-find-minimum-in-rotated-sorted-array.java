@@ -10,7 +10,7 @@ class Solution {
 
     } else {
 
-        right = mid; 
+        right = mid; // bvecuase we still dont know that mid may be minimum so we have to recheck with the part and other to be discarded
 
     }
 
