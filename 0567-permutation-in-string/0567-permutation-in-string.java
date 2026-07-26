@@ -17,7 +17,7 @@ class Solution {// clasic sliding window one  which we ave to check premutations
         for (int i = s1.length(); i < s2.length(); i++) {
             s2Count[s2.charAt(i) - 'a']++;
             s2Count[s2.charAt(i - s1.length()) - 'a']--; // window and need sizes should be same not a shrinks or expands ex s1 = "abcd " then s2 = " cdab " or "edgc" like only 4 to be  so we have to use complement logic here 
-            if (Arrays.equals(s1Count, s2Count)) {
+            if (Arrays.equals(s1Count, s2Count)) {// Arrays.equals is O(1). as we check only 26 which be o(1) so we use array.equals() method 
                 return true; // will check each irteration that s2 == s1 
             }
         }
