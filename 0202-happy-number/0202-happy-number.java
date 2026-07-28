@@ -3,12 +3,24 @@ class Solution {// complexity of space and time is o(long n)
 // this is classic step wise iteration and  checking 
 // FINAL SUM TO BE 1 
     public boolean isHappy(int n) {
-        Set<Integer> seen = new HashSet<>();// to get unique values 
-        while (n != 1 && !seen.contains(n)) {// will chek here is n == 1 and if not we have to add the n to created set so that if repeated then not possible to be happy
-            seen.add(n); // adding number ot set 
-            n = getNext(n);// using the method of getNext()
+        // Set<Integer> seen = new HashSet<>();// to get unique values 
+        // while (n != 1 && !seen.contains(n)) {// will chek here is n == 1 and if not we have to add the n to created set so that if repeated then not possible to be happy
+        //     seen.add(n); // adding number ot set 
+        //     n = getNext(n);// using the method of getNext()
+        // }
+        // return n == 1;
+
+         int slow = n;
+        int fast = getNext(n);
+
+        // Move slow by 1 step and fast by 2 steps
+        while (fast != 1 && slow != fast) {
+            slow = getNext(slow);
+            fast = getNext(getNext(fast));
         }
-        return n == 1;
+
+        // If fast reached 1, it's a happy number
+        return fast == 1;
     }
 
     private static int getNext(int n) {// created a method for adding the sums of squares of the digit 
