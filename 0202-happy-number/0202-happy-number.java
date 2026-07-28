@@ -3,14 +3,14 @@ class Solution {// complexity of space and time is o(long n)
 // this is classic step wise iteration and  checking 
 // FINAL SUM TO BE 1 
     public boolean isHappy(int n) {
-        // Set<Integer> seen = new HashSet<>();// to get unique values 
+        // Set<Integer> seen = new HashSet<>();// to get unique values // this is o(log n ) for both time space 
         // while (n != 1 && !seen.contains(n)) {// will chek here is n == 1 and if not we have to add the n to created set so that if repeated then not possible to be happy
         //     seen.add(n); // adding number ot set 
         //     n = getNext(n);// using the method of getNext()
         // }
         // return n == 1;
 
-         int slow = n;
+         int slow = n;// this is log n for time and o(1) for space
         int fast = getNext(n);
 
         // Move slow by 1 step and fast by 2 steps
