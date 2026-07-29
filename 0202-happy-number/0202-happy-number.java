@@ -10,6 +10,8 @@ class Solution {// complexity of space and time is o(long n)
         // }
         // return n == 1;
 
+//// this is floyd algo for identifying whthere a cycle is forming or not 
+
          int slow = n;// this is log n for time and o(1) for space
         int fast = getNext(n);
 
