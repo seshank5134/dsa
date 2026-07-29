@@ -13,7 +13,8 @@ class Solution {// binary search
              if(hours<=h){
                 ans = mid ;
                 right = mid-1;
-                         }else {
+                         }else {//if h<hours A slower speed will only increase the hours further. so we search right part for larger 
+                         //left = mid +1
                 left = mid+1;
                                 }
         }
