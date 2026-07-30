@@ -1,6 +1,6 @@
-class Solution {// calssic binary wotih first and last 
+class Solution {// classic binary wotih first and last  of traget in the given array 
     public int[] searchRange(int[] nums, int target) {
-        int left= 0; int right = nums.length - 1;
+        int left= 0; int right = nums.length - 1;// will use a function we create to make find first and last 
             int first = binarySearch(nums, target, true);// here we are calling to get first with find first as true 
             int last = binarySearch(nums, target, false);// here we have to call the method to check the last onbe with false as findFirst 
             return  new int[]{first,last};
@@ -12,7 +12,7 @@ class Solution {// calssic binary wotih first and last
                 int mid = left + (right - left) / 2;
                 if(nums[mid] == target){
                     result = mid;
-                    if(findFirst){
+                    if(findFirst){// here bool
                         right = mid - 1;
                     }else{
                         left = mid + 1;
