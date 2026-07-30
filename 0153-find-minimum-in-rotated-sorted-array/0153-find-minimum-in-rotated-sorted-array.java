@@ -1,4 +1,4 @@
-class Solution {
+class Solution { // log n of time and o(1) space we donnt taking any space extra 
     public int findMin(int[] nums) {int left=0; int right=nums.length-1;
         while (left < right) {// Every iteration removes part of the search space so finnaly will get single out at last 
 
@@ -10,7 +10,7 @@ class Solution {
 
     } else {
 
-        right = mid; // bvecuase we still dont know that mid may be minimum so we have to recheck with the part and other to be discarded
+        right = mid; // because we still dont know that mid may be minimum so we have to recheck with the part and other to be discarded
 
     }
 
