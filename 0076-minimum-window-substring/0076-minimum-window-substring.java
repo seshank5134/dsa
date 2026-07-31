@@ -1,7 +1,7 @@
 class Solution {// best sliding problem with greedy one 
     public String minWindow(String s, String t) { // done by vs code 
     // here its like a greedy one  when the need count and window count matches we will shrink form left and check the need == count if then re shrink 
-    // if not equal then wwe have to rpxpand and gaina and will check this that wheter is window and need count be equal and both have sam e elements 
+    // if not equal then we have to rpxpand and gaina and will check this that wheter is window and need count be equal and Window frequency ≥ Need frequency for every required character.
     // our final funda is like taking a minimum substring from s where it have all elements from t 
         int left = 0 ; 
           int matched = 0 ;
@@ -18,7 +18,7 @@ int minLength = Integer.MAX_VALUE;
         char rightChar = s.charAt(right);
         windowCount.put(rightChar, windowCount.getOrDefault(rightChar, 0) + 1);
         if (needCount.containsKey(rightChar) && windowCount.get(rightChar).intValue() == needCount.get(rightChar).intValue()) {
-            matched++; // when the window have the need size then we have to add the matched increase 
+            matched++; // When all required character frequencies have been satisfied (matched == needMap.size()), the current window is valid. Then we greedily shrink it to find the smallest valid window.
         }
         while (matched == needCount.size()) {
             if (right - left + 1 < minLength) {
@@ -35,6 +35,6 @@ int minLength = Integer.MAX_VALUE;
     }
 
     
-  return minLength == Integer.MAX_VALUE ? "" : s.substring(start, start + minLength);// teritoary expression here 
+  return minLength == Integer.MAX_VALUE ? "" : s.substring(start, start + minLength);// teritotary expression here 
     }
 }// all sliding windows got same patteren just it will hacve change in condition 
