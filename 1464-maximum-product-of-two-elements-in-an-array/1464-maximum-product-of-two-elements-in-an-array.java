@@ -1,5 +1,5 @@
 class Solution {
-    public int maxProduct(int[] nums) {
+    public int maxProduct(int[] nums) {// this is one is time anmd space with o(N) and o(1 )
         // int max1 = 0; int max2 =0;
         // for(int n : nums){
         //     max2 = Math.max(max2, Math.min(max1,n));
