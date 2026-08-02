@@ -1,4 +1,4 @@
-class Solution {
+class Solution { // sliding window classic fruits in the box 
     public int totalFruit(int[] fruits) {
         int left = 0; int maxlen = 0;
         
