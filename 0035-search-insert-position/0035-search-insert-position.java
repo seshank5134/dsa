@@ -1,4 +1,4 @@
-class Solution {
+class Solution {// direct search checking 
     public int searchInsert(int[] nums, int target) {int n = nums.length;
          int left = 0 ; int right = n-1 ;int mid =0 ; 
         while ( left <= right ){// need to check until left > right there is chance of element to be presented in the sorted array 
@@ -12,8 +12,6 @@ else if (nums[mid] < target)
 else
     right = mid - 1;// if high than req then discard right side part also do one less of mid as we already checked the mid so mid-1 
         }
-        return left; // Target was not found.
-// At this point, left is the first position where target
-// can be inserted while keeping the array sorted.
+        return left; // we have to just Return the insertion position if not there as we already checked the value present in it in while loop 
     }
 }
