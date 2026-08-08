@@ -1,6 +1,6 @@
 class Solution {// have to find the three pairs results to be 0 as provided we done a list method 
     public List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>> result = new ArrayList<>();
+        List<List<Integer>> result = new ArrayList<>();// list type data to save 
         
         // Sort the array to use the two-pointer technique and easily skip duplicates
         Arrays.sort(nums);
