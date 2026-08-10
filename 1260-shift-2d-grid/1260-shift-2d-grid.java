@@ -1,4 +1,4 @@
-class Solution {// MATRIX 
+class Solution {// MATRIX  2D
     public List<List<Integer>> shiftGrid(int[][] grid, int k) {
         int row = grid.length;    // Number of rows
         int col = grid[0].length; // Number of columns
