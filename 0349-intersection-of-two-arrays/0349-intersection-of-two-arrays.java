@@ -1,5 +1,5 @@
 class Solution {
-    public int[] intersection(int[] nums1, int[] nums2) {
+    public int[] intersection(int[] nums1, int[] nums2) {// this is  o(n^3) time and space o(n) 
         //   ArrayList<Integer> list = new ArrayList<>();
 
         // for (int i = 0; i < nums1.length; i++) {
@@ -26,7 +26,7 @@ class Solution {
         // }
 
         // return result;
-Set<Integer> set1 = new HashSet<>();
+Set<Integer> set1 = new HashSet<>();// using set we can do get unique items and using two loops entirly so o(n^2) time and space be o(n) 
         Set<Integer> intersection = new HashSet<>();
 
         // Store nums1 elements
