@@ -1,4 +1,4 @@
-class Solution {// have to remove 00 and merge both and sort 
+class Solution {// have to remove 0 and merge both and sort \(O(m + n)\) time complexity and \(O(1)\) space complexity
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int x = m - 1; // Pointer for the last element in nums1's initial part
             int y = n - 1; // Pointer for the last element in nums2
