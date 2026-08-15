@@ -9,6 +9,7 @@
  *     }
  * }
  */
+ // BEST SOLTUION FOR FINDING FLYOD 
 public class Solution {// flyod cycle is algo for finding whether there is cycle is present or not by using fast and slow pointers if they ever meet at a point then its confirmed that cycle exists
     public boolean hasCycle(ListNode head) {
          ListNode slow = head;
