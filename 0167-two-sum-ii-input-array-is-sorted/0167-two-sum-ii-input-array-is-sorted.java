@@ -1,4 +1,4 @@
-class Solution {
+class Solution {// classic two pointer sum we hve to find the target just complement logic whihc will get both at a tie with two pointer by forming new int arr 
     public int[] twoSum(int[] numbers, int target) {
      int le= 0; int  ri= numbers.length-1;
     for ( int i = 0 ; i<numbers.length;i++){
