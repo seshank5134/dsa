@@ -1,4 +1,4 @@
-class Solution {// have to find the three pairs results to be 0 as provided we done a list method 
+class Solution {// have to find the three pairs results to be 0 as provided we done a list method ok
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();// list type data to save 
         
