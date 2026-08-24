@@ -5,7 +5,7 @@ class Solution {// best sliding problem with greedy one
     // our final funda is like taking a minimum substring from s where it have all elements from t 
         int left = 0 ; 
           int matched = 0 ;
-  int start = 0 ;
+  int start = 0 ;// start point 
 
 int minLength = Integer.MAX_VALUE;
     HashMap<Character, Integer> needCount = new HashMap<>();// need map
