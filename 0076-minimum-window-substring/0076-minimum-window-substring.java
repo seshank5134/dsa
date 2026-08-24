@@ -7,7 +7,7 @@ class Solution {// best sliding problem with greedy one
           int matched = 0 ;
   int start = 0 ;// start point 
 
-int minLength = Integer.MAX_VALUE;
+int minLength = Integer.MAX_VALUE;// to get min value later 
     HashMap<Character, Integer> needCount = new HashMap<>();// need map
     HashMap<Character, Integer> windowCount = new HashMap<>();// window map
      for (char c : t.toCharArray()) {
