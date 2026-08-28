@@ -1,4 +1,4 @@
-class Solution {
+class Solution {// o(n) for space and time 
     public int lengthOfLongestSubstring(String s) {
          int l = 0; int r = 0 ; int max = 0;
          Set<Character> set = new HashSet<>();
@@ -13,7 +13,7 @@ class Solution {
                     l++;//left ---> shrinks
 
                 }
-                set.add(s.charAt(i));
+                set.add(s.charAt(i));// just add the not if check 
 
                 r++;//  right ---> expands
             }
