@@ -12,7 +12,7 @@
 public class Solution {// flyod cycle detection with fast and slow and phase two to find if cycle is there then we have to get where the cycle start from Time: O(n)
 //Extra space: O(1)
 
-    public ListNode detectCycle(ListNode head) {
+    public ListNode detectCycle(ListNode head) {// flyod cycle
      
         ListNode slow = head;
         ListNode fast = head;
