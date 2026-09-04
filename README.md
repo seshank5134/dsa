@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/seshank5134/dsa/tree/master/1004-max-consecutive-ones-iii) |
 | [1260-shift-2d-grid](https://github.com/seshank5134/dsa/tree/master/1260-shift-2d-grid) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/seshank5134/dsa/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [3875-construct-uniform-parity-array-i](https://github.com/seshank5134/dsa/tree/master/3875-construct-uniform-parity-array-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -145,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/seshank5134/dsa/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/seshank5134/dsa/tree/master/0268-missing-number) |
 | [0292-nim-game](https://github.com/seshank5134/dsa/tree/master/0292-nim-game) |
+| [3875-construct-uniform-parity-array-i](https://github.com/seshank5134/dsa/tree/master/3875-construct-uniform-parity-array-i) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
